@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.annimath.item.ObsidianarmorItem;
+import net.mcreator.annimath.item.CorruptedCrystalItem;
 import net.mcreator.annimath.AnnimathModElements;
 
 @AnnimathModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class AftermathItemGroup extends AnnimathModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(ObsidianarmorItem.helmet, (int) (1));
+				return new ItemStack(CorruptedCrystalItem.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)
