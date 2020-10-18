@@ -114,7 +114,6 @@ public class CorruptedPotion extends AnnimathModElements.ModElement {
 			double z = entity.getPosZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
 				CorruptedPotionExpiresssProcedure.executeProcedure($_dependencies);
 			}
 		}

@@ -309,32 +309,6 @@
       }
     },
     {
-      "name": "InfectedTouch",
-      "type": "item",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "infected_touch"
-    },
-    {
-      "name": "InfectedTouchLivingEntityIsHitWithItem",
-      "type": "procedure",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "infected_touch_living_entity_is_hit_with_item",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "CorruptedPotionExpiresss",
       "type": "procedure",
       "sortid": 19,
@@ -343,12 +317,7 @@
       "ids": {},
       "registry_name": "corrupted_potion_expiresss",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       }
     }
   ],
@@ -370,7 +339,6 @@
       "item.annimath.obsidianarmor_boots": "Obsidian Boots",
       "effect.corrupted": "Corrupted",
       "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
-      "item.annimath.infected_touch": "Infected Touch",
       "item.minecraft.splash_potion.effect.corrupted": "Splash Corrupted"
     }
   },
