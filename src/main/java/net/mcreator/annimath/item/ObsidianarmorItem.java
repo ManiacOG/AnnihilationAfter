@@ -41,7 +41,7 @@ public class ObsidianarmorItem extends AnnimathModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{6, 8, 10, 6}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {

@@ -1,0 +1,9 @@
+{
+  "group": "annimath",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "annimath:radioactive_obsidian"
+  },
+  "result": "annimath:corrupted_crystal"
+}

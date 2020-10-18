@@ -138,9 +138,47 @@
       "registry_name": "radioactive_obsidian"
     },
     {
-      "name": "MineEntityWalksOnTheBlock",
+      "name": "Mine",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mine"
+    },
+    {
+      "name": "MinePlayerStartsToDestroy",
       "type": "procedure",
       "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mine_player_starts_to_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MineEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -167,42 +205,58 @@
       }
     },
     {
-      "name": "Mine",
-      "type": "block",
-      "sortid": 5,
+      "name": "CorruptedCrystalRecipe",
+      "type": "recipe",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mine"
+      "registry_name": "corrupted_crystal_recipe"
     },
     {
-      "name": "MinePlayerStartsToDestroy",
-      "type": "procedure",
-      "sortid": 7,
+      "name": "MineRecipe",
+      "type": "recipe",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mine_player_starts_to_destroy",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "mine_recipe"
+    },
+    {
+      "name": "ObsidianHelmetRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_helmet_recipe"
+    },
+    {
+      "name": "ObsidianChestplateRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_chestplate_recipe"
+    },
+    {
+      "name": "ObsidianLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_leggings_recipe"
+    },
+    {
+      "name": "ObsidianBootsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -211,13 +265,15 @@
     "en_us": {
       "item.minecraft.potion.effect.corrupted": "Corrupted",
       "block.annimath.corrupted_log": "Corrupted Log",
-      "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
+      "block.annimath.radioactive_obsidian": "Radioactive Obsidian",
       "itemGroup.tabaftermath": "Aftermath",
+      "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
       "item.minecraft.tipped_arrow.effect.corrupted": "Arrow of Corrupted",
       "item.minecraft.lingering_potion.effect.corrupted": "Lingering Corrupted",
       "block.annimath.deadgrass": "Dead Grass",
       "item.annimath.corrupted_crystal": "Corrupted Crystal",
       "item.annimath.obsidianarmor_leggings": "Obsidian Leggings",
+      "block.annimath.mine": "Mine",
       "item.annimath.obsidianarmor_boots": "Obsidian Boots",
       "effect.corrupted": "Corrupted",
       "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",

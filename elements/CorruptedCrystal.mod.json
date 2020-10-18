@@ -9,7 +9,7 @@
     "creativeTab": {
       "value": "CUSTOM:Aftermath"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
