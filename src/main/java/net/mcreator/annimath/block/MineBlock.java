@@ -25,6 +25,7 @@ import net.minecraft.block.Block;
 
 import net.mcreator.annimath.procedures.MinePlayerStartsToDestroyProcedure;
 import net.mcreator.annimath.procedures.MineEntityWalksOnTheBlockProcedure;
+import net.mcreator.annimath.procedures.MineEntityCollidesInTheBlockProcedure;
 import net.mcreator.annimath.itemgroup.AftermathItemGroup;
 import net.mcreator.annimath.AnnimathModElements;
 
@@ -90,6 +91,22 @@ public class MineBlock extends AnnimathModElements.ModElement {
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
 				MinePlayerStartsToDestroyProcedure.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
+		public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
+			super.onEntityCollision(state, world, pos, entity);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				MineEntityCollidesInTheBlockProcedure.executeProcedure($_dependencies);
 			}
 		}
 

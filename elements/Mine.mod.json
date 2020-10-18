@@ -91,6 +91,9 @@
     "onStartToDestroy": {
       "name": "MinePlayerStartsToDestroy"
     },
+    "onEntityCollides": {
+      "name": "MineEntityCollidesInTheBlock"
+    },
     "onEntityWalksOn": {
       "name": "MineEntityWalksOnTheBlock"
     },

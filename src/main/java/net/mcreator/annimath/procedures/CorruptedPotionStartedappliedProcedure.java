@@ -2,7 +2,6 @@ package net.mcreator.annimath.procedures;
 
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.IWorld;
-import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.particles.ParticleTypes;
@@ -62,8 +61,5 @@ public class CorruptedPotionStartedappliedProcedure extends AnnimathModElements.
 		}
 		if (world instanceof ServerWorld)
 			((ServerWorld) world).addLightningBolt(new LightningBoltEntity(world.getWorld(), (int) x, (int) y, (int) z, false));
-		if (entity instanceof PlayerEntity && !entity.world.isRemote) {
-			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You have been corrupted. Goodluck..."), (false));
-		}
 	}
 }

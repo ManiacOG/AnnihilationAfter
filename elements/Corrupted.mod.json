@@ -17,9 +17,6 @@
     "renderStatusInHUD": true,
     "onStarted": {
       "name": "CorruptedPotionStartedapplied"
-    },
-    "onExpired": {
-      "name": "CorruptedPotionExpires"
     }
   }
 }
