@@ -1,31 +1,10 @@
 {
   "id_map": {},
-  "mod_elements": [
-    {
-      "name": "Fdgh",
-      "type": "tab",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fdgh"
-    },
-    {
-      "name": "Sqss",
-      "type": "overlay",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sqss"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "itemGroup.tabfdgh": "I suck nipples"
-    }
+    "en_us": {}
   },
   "workspaceSettings": {
     "modid": "annimath",
