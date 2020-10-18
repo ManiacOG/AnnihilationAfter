@@ -1,3 +1,15 @@
 {
-  "itemGroup.tabaftermath": "Aftermath"
+  "item.minecraft.potion.effect.corrupted": "Corrupted",
+  "block.annimath.corrupted_log": "Corrupted Log",
+  "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
+  "itemGroup.tabaftermath": "Aftermath",
+  "item.minecraft.tipped_arrow.effect.corrupted": "Arrow of Corrupted",
+  "item.minecraft.lingering_potion.effect.corrupted": "Lingering Corrupted",
+  "block.annimath.deadgrass": "Dead Grass",
+  "item.annimath.corrupted_crystal": "Corrupted Crystal",
+  "item.annimath.obsidianarmor_leggings": "Obsidian Leggings",
+  "item.annimath.obsidianarmor_boots": "Obsidian Boots",
+  "effect.corrupted": "Corrupted",
+  "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
+  "item.minecraft.splash_potion.effect.corrupted": "Splash Corrupted"
 }

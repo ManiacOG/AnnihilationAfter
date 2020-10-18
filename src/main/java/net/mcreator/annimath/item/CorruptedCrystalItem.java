@@ -1,12 +1,25 @@
 
 package net.mcreator.annimath.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.World;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.annimath.procedures.CorruptedCrystalRightClickedInAirProcedure;
+import net.mcreator.annimath.itemgroup.AftermathItemGroup;
+import net.mcreator.annimath.AnnimathModElements;
+
+import java.util.Map;
+import java.util.HashMap;
+
 @AnnimathModElements.ModElement.Tag
 public class CorruptedCrystalItem extends AnnimathModElements.ModElement {
-
 	@ObjectHolder("annimath:corrupted_crystal")
 	public static final Item block = null;
-
 	public CorruptedCrystalItem(AnnimathModElements instance) {
 		super(instance, 3);
 	}
@@ -15,9 +28,7 @@ public class CorruptedCrystalItem extends AnnimathModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(AftermathItemGroup.tab).maxDamage(1));
 			setRegistryName("corrupted_crystal");
@@ -47,14 +58,10 @@ public class CorruptedCrystalItem extends AnnimathModElements.ModElement {
 			World world = entity.world;
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-
 				$_dependencies.put("entity", entity);
-
 				CorruptedCrystalRightClickedInAirProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
 		}
-
 	}
-
 }
