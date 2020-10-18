@@ -1,3 +1,7 @@
 {
-  "itemGroup.tabaftermath": "Aftermath"
+  "item.annimath.obsidianarmor_boots": "Obsidian Boots",
+  "itemGroup.tabaftermath": "Aftermath",
+  "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
+  "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
+  "item.annimath.obsidianarmor_leggings": "Obsidian Leggings"
 }

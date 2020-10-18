@@ -9,13 +9,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aftermath"
+    },
+    {
+      "name": "Obsidianarmor",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidianarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabaftermath": "Aftermath"
+      "item.annimath.obsidianarmor_boots": "Obsidian Boots",
+      "itemGroup.tabaftermath": "Aftermath",
+      "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
+      "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
+      "item.annimath.obsidianarmor_leggings": "Obsidian Leggings"
     }
   },
   "workspaceSettings": {
