@@ -127,6 +127,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "corrupted_crystal"
+    },
+    {
+      "name": "RadioactiveObsidian",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "radioactive_obsidian"
     }
   ],
   "variable_elements": [],
@@ -135,6 +144,7 @@
     "en_us": {
       "item.minecraft.potion.effect.corrupted": "Corrupted",
       "block.annimath.corrupted_log": "Corrupted Log",
+      "block.annimath.radioactive_obsidian": "Radioactive Obsidian",
       "itemGroup.tabaftermath": "Aftermath",
       "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
       "item.minecraft.tipped_arrow.effect.corrupted": "Arrow of Corrupted",

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "annimath:blocks/radioactiveobsidian",
+    "up": "annimath:blocks/radioactiveobsidian",
+    "north": "annimath:blocks/radioactiveobsidian",
+    "east": "annimath:blocks/radioactiveobsidian",
+    "south": "annimath:blocks/radioactiveobsidian",
+    "west": "annimath:blocks/radioactiveobsidian",
+    "particle": "annimath:blocks/radioactiveobsidian"
+  }
+}
