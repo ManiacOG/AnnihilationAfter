@@ -20,6 +20,9 @@
     },
     "onActiveTick": {
       "name": "CorruptedPotionStartedapplied"
+    },
+    "onExpired": {
+      "name": "CorruptedPotionExpiresss"
     }
   }
 }
