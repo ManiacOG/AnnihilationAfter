@@ -257,6 +257,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "obsidian_boots_recipe"
+    },
+    {
+      "name": "ResearchLab",
+      "type": "structure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "research_lab"
     }
   ],
   "variable_elements": [],
