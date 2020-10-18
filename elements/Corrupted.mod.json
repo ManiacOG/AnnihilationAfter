@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "potion",
+  "definition": {
+    "name": "Corrupted",
+    "effectName": "Corrupted",
+    "icon": "unnamed.png",
+    "color": {
+      "value": -2927873,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "CorruptedPotionStartedapplied"
+    },
+    "onExpired": {
+      "name": "CorruptedPotionExpires"
+    }
+  }
+}
