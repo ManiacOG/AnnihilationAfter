@@ -17,6 +17,9 @@
     "renderStatusInHUD": true,
     "onStarted": {
       "name": "CorruptedPotionStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "CorruptedPotionStartedapplied"
     }
   }
 }
