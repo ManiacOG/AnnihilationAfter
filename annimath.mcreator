@@ -9,6 +9,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "fdgh"
+    },
+    {
+      "name": "Sqss",
+      "type": "overlay",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sqss"
     }
   ],
   "variable_elements": [],
