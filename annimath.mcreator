@@ -136,6 +136,73 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "radioactive_obsidian"
+    },
+    {
+      "name": "MineEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mine_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mine",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mine"
+    },
+    {
+      "name": "MinePlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mine_player_starts_to_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -144,9 +211,8 @@
     "en_us": {
       "item.minecraft.potion.effect.corrupted": "Corrupted",
       "block.annimath.corrupted_log": "Corrupted Log",
-      "block.annimath.radioactive_obsidian": "Radioactive Obsidian",
-      "itemGroup.tabaftermath": "Aftermath",
       "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
+      "itemGroup.tabaftermath": "Aftermath",
       "item.minecraft.tipped_arrow.effect.corrupted": "Arrow of Corrupted",
       "item.minecraft.lingering_potion.effect.corrupted": "Lingering Corrupted",
       "block.annimath.deadgrass": "Dead Grass",
