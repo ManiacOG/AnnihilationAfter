@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "annimath:blocks/corruptedloginsidep33n",
+    "up": "annimath:blocks/corruptedloginsidep33n",
+    "north": "annimath:blocks/corruptedlog",
+    "east": "annimath:blocks/corruptedlog",
+    "south": "annimath:blocks/corruptedlog",
+    "west": "annimath:blocks/corruptedlog",
+    "particle": "annimath:blocks/corruptedloginsidep33n"
+  }
+}

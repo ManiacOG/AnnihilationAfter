@@ -1,3 +1,11 @@
 {
-  "itemGroup.tabaftermath": "Aftermath"
+  "item.minecraft.potion.effect.corrupted": "Corrupted",
+  "block.annimath.corrupted_log": "Corrupted Log",
+  "itemGroup.tabaftermath": "Aftermath",
+  "effect.corrupted": "Corrupted",
+  "item.minecraft.tipped_arrow.effect.corrupted": "Arrow of Corrupted",
+  "item.minecraft.lingering_potion.effect.corrupted": "Lingering Corrupted",
+  "block.annimath.deadgrass": "Dead Grass",
+  "item.minecraft.splash_potion.effect.corrupted": "Splash Corrupted",
+  "item.annimath.corrupted_crystal": "Corrupted Crystal"
 }
