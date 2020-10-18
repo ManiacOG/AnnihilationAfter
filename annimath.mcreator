@@ -254,15 +254,6 @@
       "registry_name": "obsidian_boots_recipe"
     },
     {
-      "name": "ResearchLab",
-      "type": "structure",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "research_lab"
-    },
-    {
       "name": "MineEntityCollidesInTheBlock",
       "type": "procedure",
       "sortid": 15,
@@ -319,6 +310,15 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "ScientistsLab",
+      "type": "structure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scientists_lab"
     }
   ],
   "variable_elements": [],

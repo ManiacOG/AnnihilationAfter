@@ -29,9 +29,9 @@ import net.mcreator.annimath.AnnimathModElements;
 import java.util.Random;
 
 @AnnimathModElements.ModElement.Tag
-public class ResearchLabStructure extends AnnimathModElements.ModElement {
-	public ResearchLabStructure(AnnimathModElements instance) {
-		super(instance, 14);
+public class ScientistsLabStructure extends AnnimathModElements.ModElement {
+	public ScientistsLabStructure(AnnimathModElements instance) {
+		super(instance, 20);
 	}
 
 	@Override
@@ -54,14 +54,14 @@ public class ResearchLabStructure extends AnnimathModElements.ModElement {
 						int k = ck + random.nextInt(16);
 						int j = world.getHeight(Heightmap.Type.WORLD_SURFACE_WG, i, k);
 						j -= 1;
-						Rotation rotation = Rotation.values()[random.nextInt(3)];
-						Mirror mirror = Mirror.values()[random.nextInt(2)];
-						BlockPos spawnTo = new BlockPos(i, j + 1, k);
+						Rotation rotation = Rotation.NONE;
+						Mirror mirror = Mirror.NONE;
+						BlockPos spawnTo = new BlockPos(i, j + 0, k);
 						int x = spawnTo.getX();
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("annimath", "researchlab"));
+								.getTemplateDefaulted(new ResourceLocation("annimath", "science"));
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
@@ -72,6 +72,11 @@ public class ResearchLabStructure extends AnnimathModElements.ModElement {
 			}
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
+			boolean biomeCriteria = false;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("plains")))
+				biomeCriteria = true;
+			if (!biomeCriteria)
+				continue;
 			biome.addFeature(GenerationStage.Decoration.SURFACE_STRUCTURES, feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
 		}
