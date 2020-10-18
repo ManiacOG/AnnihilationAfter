@@ -6,7 +6,6 @@ import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.effect.LightningBoltEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
@@ -59,7 +58,5 @@ public class CorruptedPotionStartedappliedProcedure extends AnnimathModElements.
 		if (world instanceof ServerWorld) {
 			((ServerWorld) world).spawnParticle(ParticleTypes.DRAGON_BREATH, x, y, z, (int) 1000, 10, 10, 10, 1);
 		}
-		if (world instanceof ServerWorld)
-			((ServerWorld) world).addLightningBolt(new LightningBoltEntity(world.getWorld(), (int) x, (int) y, (int) z, false));
 	}
 }
