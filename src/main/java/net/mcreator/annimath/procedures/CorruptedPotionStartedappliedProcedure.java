@@ -5,7 +5,6 @@ import net.minecraft.world.IWorld;
 import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.particles.ParticleTypes;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
@@ -53,8 +52,6 @@ public class CorruptedPotionStartedappliedProcedure extends AnnimathModElements.
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NAUSEA, (int) 600, (int) 1, (false), (false)));
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 600, (int) 3, (false), (false)));
-		if (entity instanceof PlayerEntity)
-			((PlayerEntity) entity).inventory.clear();
 		if (world instanceof ServerWorld) {
 			((ServerWorld) world).spawnParticle(ParticleTypes.DRAGON_BREATH, x, y, z, (int) 1000, 10, 10, 10, 1);
 		}
