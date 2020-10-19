@@ -319,10 +319,72 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "scientists_lab"
+    },
+    {
+      "name": "EnergyCapsule",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "energy_capsule"
+    },
+    {
+      "name": "Pewpew",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pewpew"
+    },
+    {
+      "name": "PulserifleBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pulserifle_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pulserifle",
+      "type": "gun",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pulserifle"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "pulserifleshot",
+      "file": "y2mate.com_-_laser_gun_sound_effect_1",
+      "category": "master"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.minecraft.potion.effect.corrupted": "Corrupted",
@@ -338,7 +400,10 @@
       "block.annimath.mine": "Mine",
       "item.annimath.obsidianarmor_boots": "Obsidian Boots",
       "effect.corrupted": "Corrupted",
+      "item.annimath.pulserifle": "Pulse Rifle",
       "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
+      "item.annimath.pewpew": "Pewpew",
+      "item.annimath.energy_capsule": "Energy Ball",
       "item.minecraft.splash_potion.effect.corrupted": "Splash Corrupted"
     }
   },
