@@ -1,0 +1,39 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "pulserifle",
+    "customModelName": "Normal",
+    "name": "Pulse Rifle",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Aftermath"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:EnergyCapsule"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "CUSTOM:pulserifleshot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1.5,
+    "bulletPower": 3.0,
+    "bulletDamage": 4.25,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Pewpew"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "PulserifleBulletHitsBlock"
+    }
+  }
+}

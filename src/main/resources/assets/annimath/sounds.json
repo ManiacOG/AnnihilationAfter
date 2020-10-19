@@ -1,1 +1,11 @@
-{}
+{
+  "pulserifleshot": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "annimath:y2mate.com_-_laser_gun_sound_effect_1",
+        "stream": false
+      }
+    ]
+  }
+}

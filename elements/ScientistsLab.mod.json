@@ -2,19 +2,23 @@
   "_fv": 10,
   "_type": "structure",
   "definition": {
-    "structure": "researchlab",
-    "randomlyRotateStructure": true,
+    "structure": "science",
+    "randomlyRotateStructure": false,
     "surfaceDetectionType": "First block",
     "spawnProbability": 1000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": 1,
+    "spawnHeightOffset": 0,
     "spawnWorldTypes": [
       "Surface"
     ],
     "restrictionBlocks": [],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      }
+    ],
     "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }
