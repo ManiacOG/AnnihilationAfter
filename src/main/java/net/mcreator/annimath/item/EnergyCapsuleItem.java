@@ -1,12 +1,19 @@
 
 package net.mcreator.annimath.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.annimath.AnnimathModElements;
+
 @AnnimathModElements.ModElement.Tag
 public class EnergyCapsuleItem extends AnnimathModElements.ModElement {
-
 	@ObjectHolder("annimath:energy_capsule")
 	public static final Item block = null;
-
 	public EnergyCapsuleItem(AnnimathModElements instance) {
 		super(instance, 21);
 	}
@@ -15,9 +22,7 @@ public class EnergyCapsuleItem extends AnnimathModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(4));
 			setRegistryName("energy_capsule");
@@ -37,7 +42,5 @@ public class EnergyCapsuleItem extends AnnimathModElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
-
 	}
-
 }

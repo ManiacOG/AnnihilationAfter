@@ -47,7 +47,7 @@ public class ScientistsLabStructure extends AnnimathModElements.ModElement {
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 100) {
+				if ((random.nextInt(1000000) + 1) <= 1000) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
@@ -72,11 +72,6 @@ public class ScientistsLabStructure extends AnnimathModElements.ModElement {
 			}
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("plains")))
-				biomeCriteria = true;
-			if (!biomeCriteria)
-				continue;
 			biome.addFeature(GenerationStage.Decoration.SURFACE_STRUCTURES, feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
 		}

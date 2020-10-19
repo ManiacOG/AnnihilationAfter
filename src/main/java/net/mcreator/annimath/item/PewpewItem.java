@@ -1,12 +1,18 @@
 
 package net.mcreator.annimath.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.annimath.AnnimathModElements;
+
 @AnnimathModElements.ModElement.Tag
 public class PewpewItem extends AnnimathModElements.ModElement {
-
 	@ObjectHolder("annimath:pewpew")
 	public static final Item block = null;
-
 	public PewpewItem(AnnimathModElements instance) {
 		super(instance, 22);
 	}
@@ -15,9 +21,7 @@ public class PewpewItem extends AnnimathModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(null).maxStackSize(64));
 			setRegistryName("pewpew");
@@ -37,7 +41,5 @@ public class PewpewItem extends AnnimathModElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
-
 	}
-
 }

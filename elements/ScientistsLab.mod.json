@@ -5,7 +5,7 @@
     "structure": "science",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 100,
+    "spawnProbability": 1000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
@@ -14,11 +14,7 @@
       "Surface"
     ],
     "restrictionBlocks": [],
-    "restrictionBiomes": [
-      {
-        "value": "plains"
-      }
-    ],
+    "restrictionBiomes": [],
     "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

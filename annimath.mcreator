@@ -393,6 +393,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pewpew"
+    },
+    {
+      "name": "DeadLeaves",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dead_leaves"
+    },
+    {
+      "name": "AftermathBiome",
+      "type": "biome",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aftermath_biome"
     }
   ],
   "variable_elements": [],
@@ -421,6 +439,7 @@
       "item.annimath.pulserifle": "Pulse Rifle",
       "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
       "item.annimath.pewpew": "Pewpew",
+      "block.annimath.dead_leaves": "Dead Leaves",
       "item.annimath.energy_capsule": "Energy Ball",
       "item.minecraft.splash_potion.effect.corrupted": "Splash Corrupted"
     }
