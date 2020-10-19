@@ -312,31 +312,22 @@
       }
     },
     {
-      "name": "ScientistsLab",
+      "name": "RarestStructure",
       "type": "structure",
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "scientists_lab"
+      "registry_name": "rarest_structure"
     },
     {
-      "name": "EnergyCapsule",
-      "type": "item",
+      "name": "Testsite",
+      "type": "structure",
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "energy_capsule"
-    },
-    {
-      "name": "Pewpew",
-      "type": "item",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pewpew"
+      "registry_name": "testsite"
     },
     {
       "name": "PulserifleBulletHitsBlock",
@@ -368,6 +359,15 @@
       }
     },
     {
+      "name": "EnergyCapsule",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "energy_capsule"
+    },
+    {
       "name": "Pulserifle",
       "type": "gun",
       "sortid": 21,
@@ -375,6 +375,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pulserifle"
+    },
+    {
+      "name": "ScientistsLab",
+      "type": "structure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scientists_lab"
+    },
+    {
+      "name": "Pewpew",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pewpew"
     }
   ],
   "variable_elements": [],
