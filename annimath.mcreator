@@ -319,6 +319,24 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "RarestStructure",
+      "type": "structure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rarest_structure"
+    },
+    {
+      "name": "Testsite",
+      "type": "structure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testsite"
     }
   ],
   "variable_elements": [],
