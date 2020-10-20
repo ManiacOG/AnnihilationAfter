@@ -3,8 +3,7 @@
   "textures": {
     "all": "annimath:blocks/mine",
     "particle": "annimath:blocks/mine",
-    "0": "annimath:blocks/redstone_block",
-    "1": "annimath:blocks/stone",
-    "missing": "annimath:blocks/stone"
+    "heheheherhehee": "annimath:blocks/heheheherhehee",
+    "hehlehlelhehlehlehl": "annimath:blocks/hehlehlelhehlehlehl"
   }
 }

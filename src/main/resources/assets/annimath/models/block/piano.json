@@ -1,0 +1,10 @@
+{
+  "parent": "annimath:custom/pianodos",
+  "textures": {
+    "all": "annimath:blocks/d69oj3y-7805d352-b8b2-486a-8fdf-570c526a7709",
+    "particle": "annimath:blocks/d69oj3y-7805d352-b8b2-486a-8fdf-570c526a7709",
+    "68fdeb08b6cecbb": "annimath:blocks/68fdeb08b6cecbb",
+    "hehehehehehe": "annimath:blocks/hehehehehehe",
+    "blackthing": "annimath:blocks/blackthing"
+  }
+}

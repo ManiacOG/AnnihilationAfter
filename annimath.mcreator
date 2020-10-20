@@ -411,6 +411,44 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aftermath_biome"
+    },
+    {
+      "name": "PianoOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piano_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Piano",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piano"
     }
   ],
   "variable_elements": [],
@@ -418,6 +456,11 @@
     {
       "name": "pulserifleshot",
       "file": "y2mate.com_-_laser_gun_sound_effect_1",
+      "category": "master"
+    },
+    {
+      "name": "pianodixie",
+      "file": "y2mate.com_-_be_happy_-_dixie_damelio_-_piano_cover_sheets",
       "category": "master"
     }
   ],
@@ -434,6 +477,7 @@
       "item.annimath.corrupted_crystal": "Corrupted Crystal",
       "item.annimath.obsidianarmor_leggings": "Obsidian Leggings",
       "block.annimath.mine": "Mine",
+      "block.annimath.piano": "Piano",
       "item.annimath.obsidianarmor_boots": "Obsidian Boots",
       "effect.corrupted": "Corrupted",
       "item.annimath.pulserifle": "Pulse Rifle",
