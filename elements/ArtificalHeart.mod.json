@@ -2,10 +2,10 @@
   "_fv": 10,
   "_type": "food",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "artificalheart",
-    "customModelName": "Normal",
-    "name": "Artifical Heart",
+    "customModelName": "artificalheart:default",
+    "name": "Artificial Heart",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Aftermath"
