@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "cron",
+    "customModelName": "Normal",
+    "name": "Corn",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Aftermath"
+    },
+    "stackSize": 24,
+    "nutritionalValue": 3,
+    "saturation": 0.3,
+    "eatingSpeed": 60,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}
