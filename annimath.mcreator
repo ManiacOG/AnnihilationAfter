@@ -449,6 +449,115 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "piano"
+    },
+    {
+      "name": "ArtificalHeartFoodEaten",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifical_heart_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtificalHeartRightClickedInAir",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifical_heart_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtificalHeart",
+      "type": "food",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifical_heart"
+    },
+    {
+      "name": "TheScientistEntityDies",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_scientist_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheScientist",
+      "type": "mob",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_scientist"
     }
   ],
   "variable_elements": [],
@@ -471,9 +580,11 @@
       "block.annimath.radioactive_obsidian": "Radioactive Obsidian",
       "itemGroup.tabaftermath": "Aftermath",
       "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
+      "item.annimath.the_scientist": "The Scientist Spawn Egg",
       "item.minecraft.tipped_arrow.effect.corrupted": "Arrow of Corrupted",
       "item.minecraft.lingering_potion.effect.corrupted": "Lingering Corrupted",
       "block.annimath.deadgrass": "Dead Grass",
+      "item.annimath.artifical_heart": "Artifical Heart",
       "item.annimath.corrupted_crystal": "Corrupted Crystal",
       "item.annimath.obsidianarmor_leggings": "Obsidian Leggings",
       "block.annimath.mine": "Mine",
@@ -481,6 +592,7 @@
       "item.annimath.obsidianarmor_boots": "Obsidian Boots",
       "effect.corrupted": "Corrupted",
       "item.annimath.pulserifle": "Pulse Rifle",
+      "entity.annimath.the_scientist": "The Scientist",
       "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
       "item.annimath.pewpew": "Pewpew",
       "block.annimath.dead_leaves": "Dead Leaves",
