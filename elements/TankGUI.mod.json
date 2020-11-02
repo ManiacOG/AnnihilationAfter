@@ -1,0 +1,41 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 409,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Fill",
+          "onClick": {
+            "name": "TankProcedureMain"
+          },
+          "width": 80,
+          "height": 40,
+          "name": "Fill",
+          "x": 386,
+          "y": 173
+        }
+      }
+    ]
+  }
+}

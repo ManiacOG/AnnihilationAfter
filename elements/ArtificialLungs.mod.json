@@ -3,13 +3,13 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "syringeofblood",
+    "texture": "pewpew",
     "customModelName": "Normal",
-    "name": "Syringe of Blood",
+    "name": "Artificial Lungs",
     "creativeTab": {
       "value": "CUSTOM:Aftermath"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

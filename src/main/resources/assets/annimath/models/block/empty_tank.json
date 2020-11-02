@@ -1,0 +1,10 @@
+{
+  "parent": "annimath:custom/tank",
+  "textures": {
+    "all": "annimath:blocks/tank",
+    "particle": "annimath:blocks/tank",
+    "0": "annimath:blocks/iron_block",
+    "1": "annimath:blocks/black_shulker_box",
+    "missing": "annimath:blocks/iron_block"
+  }
+}

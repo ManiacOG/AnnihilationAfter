@@ -2,6 +2,7 @@ package net.mcreator.annimath.procedures;
 
 import net.minecraftforge.items.ItemHandlerHelper;
 
+import net.minecraft.util.DamageSource;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
@@ -24,12 +25,13 @@ public class SyringeRightClickedInAirProcedure extends AnnimathModElements.ModEl
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (entity instanceof PlayerEntity)
-			((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(SyringeItem.block, (int) (1)).getItem() == p.getItem(), (int) 1);
+		entity.attackEntityFrom(DamageSource.CACTUS, (float) 2);
 		if (entity instanceof PlayerEntity) {
 			ItemStack _setstack = new ItemStack(SyringeofbloodItem.block, (int) (1));
 			_setstack.setCount((int) 1);
 			ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 		}
+		if (entity instanceof PlayerEntity)
+			((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(SyringeItem.block, (int) (1)).getItem() == p.getItem(), (int) 1);
 	}
 }

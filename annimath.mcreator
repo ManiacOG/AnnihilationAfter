@@ -1306,6 +1306,162 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "artificial_brain"
+    },
+    {
+      "name": "ArtificialLungs",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artificial_lungs"
+    },
+    {
+      "name": "EmptyTank",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "empty_tank"
+    },
+    {
+      "name": "OxygenTank",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxygen_tank"
+    },
+    {
+      "name": "TankProcedureLungs",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tank_procedure_lungs",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TankProcedureMain",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tank_procedure_main",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TankGUI",
+      "type": "gui",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tank_gui"
+    },
+    {
+      "name": "LightningRodRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_rod_recipe"
+    },
+    {
+      "name": "NeedleRightClickedInAir",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "needle_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Needle",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "needle"
+    },
+    {
+      "name": "SyringeRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "syringe_recipe"
+    },
+    {
+      "name": "TankRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tank_recipe"
+    },
+    {
+      "name": "NeedleRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "needle_recipe"
     }
   ],
   "variable_elements": [],
@@ -1319,25 +1475,33 @@
       "name": "pianodixie",
       "file": "y2mate.com_-_be_happy_-_dixie_damelio_-_piano_cover_sheets",
       "category": "master"
+    },
+    {
+      "name": "ding",
+      "file": "xp_orb_sound_minecraft_-_sound_effect_for_editing",
+      "category": "master"
     }
   ],
   "language_map": {
     "en_us": {
       "item.minecraft.potion.effect.corrupted": "Corrupted",
+      "item.annimath.hasmat_armor_helmet": "Hasmat Helmet",
       "block.annimath.infuser": "Infuser",
       "item.annimath.artificial_brain": "Artificial Brain",
-      "item.annimath.cron": "Corn",
       "item.annimath.amethyst_shovel": "Amethyst Shovel",
+      "item.annimath.cron": "Corn",
       "item.annimath.ruby_shovel": "Ruby Shovel",
+      "item.annimath.obsidian_pickaxe": "Obsidian Pickaxe",
       "item.annimath.corrupted_crystal": "Corrupted Crystal",
       "block.annimath.mine": "Mine",
-      "item.annimath.the_annihilators_scythe": "The Annihilator\u0027s Scythe",
       "item.annimath.ruby_armor_leggings": "Ruby Leggings",
+      "item.annimath.the_annihilators_scythe": "The Annihilator\u0027s Scythe",
       "effect.corrupted": "Corrupted",
       "item.annimath.pulserifle": "Pulse Rifle",
       "item.annimath.deadheart": "Dead Heart",
-      "block.annimath.dead_leaves": "Dead Leaves",
       "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
+      "block.annimath.dead_leaves": "Dead Leaves",
+      "item.annimath.hasmat_armor_boots": "Hasmat Boots",
       "item.annimath.energy_capsule": "Energy Ball",
       "item.minecraft.splash_potion.effect.corrupted": "Splash Corrupted",
       "item.annimath.ruby_sword": "Ruby Sword",
@@ -1349,6 +1513,7 @@
       "item.annimath.amethyst_hoe": "Amethyst Hoe",
       "item.annimath.obsidianarmor_leggings": "Obsidian Leggings",
       "item.annimath.obsidianarmor_boots": "Obsidian Boots",
+      "block.annimath.oxygen_tank": "Oxygen Tank",
       "item.annimath.ruby_gem": "Ruby",
       "item.annimath.supercharged_heart": "Overclocked Heart",
       "block.annimath.corrupted_log": "Corrupted Log",
@@ -1357,12 +1522,19 @@
       "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
       "item.annimath.ruby_hoe": "Ruby Hoe",
       "item.minecraft.lingering_potion.effect.corrupted": "Lingering Corrupted",
+      "item.annimath.obsidian_sword": "Obsidian Sword",
       "block.annimath.deadgrass": "Dead Grass",
+      "item.annimath.hasmat_armor_chestplate": "Hasmat Chestplate",
+      "item.annimath.obsidian_axe": "Obsidian Axe",
       "block.annimath.piano": "Piano",
+      "item.annimath.hasmat_armor_leggings": "Hasmat Leggings",
+      "item.annimath.obsidian_shovel": "Obsidian Shovel",
       "item.annimath.amethyst_sword": "Amethyst Sword",
+      "item.annimath.artificial_lungs": "Artificial Lungs",
       "item.annimath.amethyst_armor_leggings": "Amethyst Leggings",
       "item.annimath.pewpew": "Pewpew",
       "block.annimath.lightning_rod": "Lightning Rod",
+      "block.annimath.empty_tank": "Empty Tank",
       "item.annimath.ruby_armor_chestplate": "Ruby Chestplate",
       "block.annimath.cron_plant": "Corn Stalk",
       "item.annimath.amethyst_armor_chestplate": "Amethyst Chestplate",
@@ -1372,11 +1544,13 @@
       "item.annimath.ruby_armor_helmet": "Ruby Helmet",
       "block.annimath.amethyst_ore": "Amethyst Ore",
       "item.annimath.amethyst_armor_helmet": "Amethyst Helmet",
-      "item.annimath.syringeofblood": "Syringe ",
+      "item.annimath.syringeofblood": "Syringe of Blood",
       "entity.annimath.the_scientist": "The Scientist",
       "item.annimath.syringe": "Syringe",
       "item.annimath.ruby_axe": "Ruby Axe",
+      "item.annimath.obsidian_hoe": "Obsidian Hoe",
       "item.annimath.ruby_pickaxe": "Ruby Pickaxe",
+      "item.annimath.needle": "Needle",
       "item.annimath.amethyst_axe": "Amethyst Axe"
     }
   },

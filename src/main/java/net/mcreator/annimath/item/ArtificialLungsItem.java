@@ -11,11 +11,11 @@ import net.mcreator.annimath.itemgroup.AftermathItemGroup;
 import net.mcreator.annimath.AnnimathModElements;
 
 @AnnimathModElements.ModElement.Tag
-public class SyringeofbloodItem extends AnnimathModElements.ModElement {
-	@ObjectHolder("annimath:syringeofblood")
+public class ArtificialLungsItem extends AnnimathModElements.ModElement {
+	@ObjectHolder("annimath:artificial_lungs")
 	public static final Item block = null;
-	public SyringeofbloodItem(AnnimathModElements instance) {
-		super(instance, 62);
+	public ArtificialLungsItem(AnnimathModElements instance) {
+		super(instance, 97);
 	}
 
 	@Override
@@ -24,8 +24,8 @@ public class SyringeofbloodItem extends AnnimathModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(AftermathItemGroup.tab).maxStackSize(64));
-			setRegistryName("syringeofblood");
+			super(new Item.Properties().group(AftermathItemGroup.tab).maxStackSize(1));
+			setRegistryName("artificial_lungs");
 		}
 
 		@Override

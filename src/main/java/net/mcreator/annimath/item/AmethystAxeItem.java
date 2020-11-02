@@ -45,7 +45,7 @@ public class AmethystAxeItem extends AnnimathModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(AftermathItemGroup.tab)) {
+		}, 1, -1.5f, new Item.Properties().group(AftermathItemGroup.tab)) {
 		}.setRegistryName("amethyst_axe"));
 	}
 }
