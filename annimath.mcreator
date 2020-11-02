@@ -795,6 +795,73 @@
           }
         ]
       }
+    },
+    {
+      "name": "Infuserguiprocefure1",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infuserguiprocefure_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Infuserguirecipies",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infuserguirecipies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfuserGUI",
+      "type": "gui",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infuser_gui"
     }
   ],
   "variable_elements": [],
@@ -816,6 +883,7 @@
       "block.annimath.corrupted_log": "Corrupted Log",
       "item.annimath.ruby_armor_boots": "Ruby Boots",
       "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
+      "block.annimath.infuser": "Infuser",
       "item.annimath.cron": "Corn",
       "item.annimath.ruby_hoe": "Ruby Hoe",
       "item.minecraft.lingering_potion.effect.corrupted": "Lingering Corrupted",
@@ -825,6 +893,7 @@
       "block.annimath.piano": "Piano",
       "block.annimath.mine": "Mine",
       "item.annimath.ruby_armor_leggings": "Ruby Leggings",
+      "item.annimath.the_annihilators_scythe": "The Annihilator\u0027s Scythe",
       "effect.corrupted": "Corrupted",
       "item.annimath.pulserifle": "Pulse Rifle",
       "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
