@@ -753,6 +753,48 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "infuser"
+    },
+    {
+      "name": "TheAnnihilatorsScythe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_annihilators_scythe"
+    },
+    {
+      "name": "TheAnnihilatorsScytheRightClickedInAir",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_annihilators_scythe_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -774,7 +816,6 @@
       "block.annimath.corrupted_log": "Corrupted Log",
       "item.annimath.ruby_armor_boots": "Ruby Boots",
       "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
-      "block.annimath.infuser": "Infuser",
       "item.annimath.cron": "Corn",
       "item.annimath.ruby_hoe": "Ruby Hoe",
       "item.minecraft.lingering_potion.effect.corrupted": "Lingering Corrupted",

@@ -23,7 +23,7 @@ public class RubySwordItem extends AnnimathModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 500;
 			}
 
 			public float getEfficiency() {
@@ -31,7 +31,7 @@ public class RubySwordItem extends AnnimathModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 3.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -45,7 +45,7 @@ public class RubySwordItem extends AnnimathModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(AftermathItemGroup.tab)) {
+		}, 3, -2f, new Item.Properties().group(AftermathItemGroup.tab)) {
 		}.setRegistryName("ruby_sword"));
 	}
 }
