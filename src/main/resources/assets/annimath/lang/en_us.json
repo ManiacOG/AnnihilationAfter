@@ -16,6 +16,7 @@
   "item.annimath.the_annihilators_scythe": "The Annihilator\u0027s Scythe",
   "effect.corrupted": "Corrupted",
   "item.annimath.pulserifle": "Pulse Rifle",
+  "item.annimath.deadheart": "Dead Heart",
   "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
   "item.annimath.pewpew": "Pewpew",
   "block.annimath.dead_leaves": "Dead Leaves",
@@ -37,5 +38,6 @@
   "entity.annimath.the_scientist": "The Scientist",
   "item.annimath.ruby_axe": "Ruby Axe",
   "item.annimath.ruby_gem": "Ruby",
-  "item.annimath.ruby_pickaxe": "Ruby Pickaxe"
+  "item.annimath.ruby_pickaxe": "Ruby Pickaxe",
+  "item.annimath.supercharged_heart": "Supercharged Heart"
 }

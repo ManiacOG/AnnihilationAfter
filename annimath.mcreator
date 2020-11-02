@@ -909,6 +909,41 @@
           }
         ]
       }
+    },
+    {
+      "name": "DeadheartFoodEaten",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deadheart_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Deadheart",
+      "type": "food",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deadheart"
+    },
+    {
+      "name": "SuperchargedHeart",
+      "type": "food",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supercharged_heart"
     }
   ],
   "variable_elements": [],
@@ -943,6 +978,7 @@
       "item.annimath.the_annihilators_scythe": "The Annihilator\u0027s Scythe",
       "effect.corrupted": "Corrupted",
       "item.annimath.pulserifle": "Pulse Rifle",
+      "item.annimath.deadheart": "Dead Heart",
       "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
       "item.annimath.pewpew": "Pewpew",
       "block.annimath.dead_leaves": "Dead Leaves",
@@ -964,7 +1000,8 @@
       "entity.annimath.the_scientist": "The Scientist",
       "item.annimath.ruby_axe": "Ruby Axe",
       "item.annimath.ruby_gem": "Ruby",
-      "item.annimath.ruby_pickaxe": "Ruby Pickaxe"
+      "item.annimath.ruby_pickaxe": "Ruby Pickaxe",
+      "item.annimath.supercharged_heart": "Supercharged Heart"
     }
   },
   "workspaceSettings": {
