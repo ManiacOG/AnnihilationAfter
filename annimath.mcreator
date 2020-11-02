@@ -944,6 +944,183 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "supercharged_heart"
+    },
+    {
+      "name": "Pulseriflerecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pulseriflerecipe"
+    },
+    {
+      "name": "AmethystGem",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_gem"
+    },
+    {
+      "name": "AmethystOre",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_ore"
+    },
+    {
+      "name": "AmethystOreSmelting",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_ore_smelting"
+    },
+    {
+      "name": "AmethystPickaxe",
+      "type": "tool",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_pickaxe"
+    },
+    {
+      "name": "AmethystAxe",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_axe"
+    },
+    {
+      "name": "AmethystSword",
+      "type": "tool",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_sword"
+    },
+    {
+      "name": "AmethystShovel",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_shovel"
+    },
+    {
+      "name": "AmethystHoe",
+      "type": "tool",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_hoe"
+    },
+    {
+      "name": "AmethystPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_pickaxe_recipe"
+    },
+    {
+      "name": "AmethystAxeRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_axe_recipe"
+    },
+    {
+      "name": "AmethystSwordRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_sword_recipe"
+    },
+    {
+      "name": "AmethystShovelRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_shovel_recipe"
+    },
+    {
+      "name": "AmethystHoeRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_hoe_recipe"
+    },
+    {
+      "name": "AmethystArmor",
+      "type": "armor",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AmethystArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_armor_helmet_recipe"
+    },
+    {
+      "name": "AmethystArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_armor_body_recipe"
+    },
+    {
+      "name": "AmethystArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_armor_leggings_recipe"
+    },
+    {
+      "name": "AmethystArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -962,17 +1139,11 @@
   "language_map": {
     "en_us": {
       "item.minecraft.potion.effect.corrupted": "Corrupted",
-      "block.annimath.corrupted_log": "Corrupted Log",
-      "item.annimath.ruby_armor_boots": "Ruby Boots",
-      "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
       "block.annimath.infuser": "Infuser",
       "item.annimath.cron": "Corn",
-      "item.annimath.ruby_hoe": "Ruby Hoe",
-      "item.minecraft.lingering_potion.effect.corrupted": "Lingering Corrupted",
-      "block.annimath.deadgrass": "Dead Grass",
+      "item.annimath.amethyst_shovel": "Amethyst Shovel",
       "item.annimath.ruby_shovel": "Ruby Shovel",
       "item.annimath.corrupted_crystal": "Corrupted Crystal",
-      "block.annimath.piano": "Piano",
       "block.annimath.mine": "Mine",
       "item.annimath.ruby_armor_leggings": "Ruby Leggings",
       "item.annimath.the_annihilators_scythe": "The Annihilator\u0027s Scythe",
@@ -980,28 +1151,45 @@
       "item.annimath.pulserifle": "Pulse Rifle",
       "item.annimath.deadheart": "Dead Heart",
       "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
-      "item.annimath.pewpew": "Pewpew",
       "block.annimath.dead_leaves": "Dead Leaves",
-      "block.annimath.lightning_rod": "Lightning Rod",
       "item.annimath.energy_capsule": "Energy Ball",
       "item.minecraft.splash_potion.effect.corrupted": "Splash Corrupted",
       "item.annimath.ruby_sword": "Ruby Sword",
-      "item.annimath.ruby_armor_chestplate": "Ruby Chestplate",
       "block.annimath.radioactive_obsidian": "Radioactive Obsidian",
       "itemGroup.tabaftermath": "Aftermath",
-      "block.annimath.cron_plant": "Corn Stalk",
-      "item.annimath.the_scientist": "The Scientist Spawn Egg",
       "item.minecraft.tipped_arrow.effect.corrupted": "Arrow of Corrupted",
       "block.annimath.ruby_ore": "Ruby Ore",
       "item.annimath.artifical_heart": "Artificial Heart",
+      "item.annimath.amethyst_hoe": "Amethyst Hoe",
       "item.annimath.obsidianarmor_leggings": "Obsidian Leggings",
-      "item.annimath.ruby_armor_helmet": "Ruby Helmet",
       "item.annimath.obsidianarmor_boots": "Obsidian Boots",
+      "item.annimath.ruby_gem": "Ruby",
+      "item.annimath.supercharged_heart": "Overclocked Heart",
+      "block.annimath.corrupted_log": "Corrupted Log",
+      "item.annimath.ruby_armor_boots": "Ruby Boots",
+      "item.annimath.amethyst_gem": "Amethyst",
+      "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
+      "item.annimath.ruby_hoe": "Ruby Hoe",
+      "item.minecraft.lingering_potion.effect.corrupted": "Lingering Corrupted",
+      "block.annimath.deadgrass": "Dead Grass",
+      "block.annimath.piano": "Piano",
+      "item.annimath.amethyst_sword": "Amethyst Sword",
+      "item.annimath.amethyst_armor_leggings": "Amethyst Leggings",
+      "item.annimath.pewpew": "Pewpew",
+      "block.annimath.lightning_rod": "Lightning Rod",
+      "item.annimath.ruby_armor_chestplate": "Ruby Chestplate",
+      "block.annimath.cron_plant": "Corn Stalk",
+      "item.annimath.amethyst_armor_chestplate": "Amethyst Chestplate",
+      "item.annimath.the_scientist": "The Scientist Spawn Egg",
+      "item.annimath.amethyst_armor_boots": "Amethyst Boots",
+      "item.annimath.amethyst_pickaxe": "Amethyst Pickaxe",
+      "item.annimath.ruby_armor_helmet": "Ruby Helmet",
+      "block.annimath.amethyst_ore": "Amethyst Ore",
+      "item.annimath.amethyst_armor_helmet": "Amethyst Helmet",
       "entity.annimath.the_scientist": "The Scientist",
       "item.annimath.ruby_axe": "Ruby Axe",
-      "item.annimath.ruby_gem": "Ruby",
       "item.annimath.ruby_pickaxe": "Ruby Pickaxe",
-      "item.annimath.supercharged_heart": "Overclocked Heart"
+      "item.annimath.amethyst_axe": "Amethyst Axe"
     }
   },
   "workspaceSettings": {

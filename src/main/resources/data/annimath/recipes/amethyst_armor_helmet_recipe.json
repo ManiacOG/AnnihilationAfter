@@ -1,0 +1,29 @@
+{
+  "group": "annimath",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "annimath:amethyst_gem"
+    },
+    "1": {
+      "item": "annimath:amethyst_gem"
+    },
+    "2": {
+      "item": "annimath:amethyst_gem"
+    },
+    "3": {
+      "item": "annimath:amethyst_gem"
+    },
+    "5": {
+      "item": "annimath:amethyst_gem"
+    }
+  },
+  "result": {
+    "item": "annimath:amethyst_armor_helmet",
+    "count": 1
+  }
+}

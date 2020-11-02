@@ -1,0 +1,12 @@
+{
+  "group": "annimath",
+  "type": "minecraft:smelting",
+  "experience": 3.5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "annimath:amethyst_ore"
+  },
+  "result": {
+    "item": "annimath:amethyst_gem"
+  }
+}
