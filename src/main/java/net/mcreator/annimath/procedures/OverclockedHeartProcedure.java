@@ -10,8 +10,8 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.effect.LightningBoltEntity;
 
+import net.mcreator.annimath.item.SuperchargedHeartItem;
 import net.mcreator.annimath.item.ArtificalHeartItem;
-import net.mcreator.annimath.block.PianoBlock;
 import net.mcreator.annimath.AnnimathModElements;
 
 import java.util.concurrent.atomic.AtomicReference;
@@ -89,7 +89,7 @@ public class OverclockedHeartProcedure extends AnnimathModElements.ModElement {
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
 					final int _sltid = (int) (1);
-					final ItemStack _setstack = new ItemStack(PianoBlock.block, (int) (1));
+					final ItemStack _setstack = new ItemStack(SuperchargedHeartItem.block, (int) (1));
 					_setstack.setCount((int) 1);
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {

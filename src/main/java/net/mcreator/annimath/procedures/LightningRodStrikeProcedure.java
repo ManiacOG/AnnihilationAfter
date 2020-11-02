@@ -10,7 +10,7 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.effect.LightningBoltEntity;
 
-import net.mcreator.annimath.item.RubyGemItem;
+import net.mcreator.annimath.item.DeadheartItem;
 import net.mcreator.annimath.item.ArtificalHeartItem;
 import net.mcreator.annimath.AnnimathModElements;
 
@@ -67,7 +67,7 @@ public class LightningRodStrikeProcedure extends AnnimathModElements.ModElement 
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(RubyGemItem.block, (int) (1)).getItem()))) {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(DeadheartItem.block, (int) (1)).getItem()))) {
 			if (world instanceof ServerWorld)
 				((ServerWorld) world).addLightningBolt(new LightningBoltEntity(world.getWorld(), (int) x, (int) y, (int) z, false));
 			{
