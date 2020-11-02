@@ -26,6 +26,9 @@
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
       "name": "SyringeRightClickedInAir"
+    },
+    "onEntityHitWith": {
+      "name": "SyringeRightClickedInAir"
     }
   }
 }

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "iron_block",
+        "1": "black_shulker_box",
+        "missing": "iron_block"
+      },
+      "name": "default"
+    }
+  }
+}

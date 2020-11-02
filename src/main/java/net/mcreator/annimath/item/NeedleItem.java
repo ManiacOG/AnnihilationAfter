@@ -11,7 +11,7 @@ import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.annimath.procedures.SyringeRightClickedInAirProcedure;
+import net.mcreator.annimath.procedures.NeedleRightClickedInAirProcedure;
 import net.mcreator.annimath.itemgroup.AftermathItemGroup;
 import net.mcreator.annimath.AnnimathModElements;
 
@@ -19,11 +19,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @AnnimathModElements.ModElement.Tag
-public class SyringeItem extends AnnimathModElements.ModElement {
-	@ObjectHolder("annimath:syringe")
+public class NeedleItem extends AnnimathModElements.ModElement {
+	@ObjectHolder("annimath:needle")
 	public static final Item block = null;
-	public SyringeItem(AnnimathModElements instance) {
-		super(instance, 61);
+	public NeedleItem(AnnimathModElements instance) {
+		super(instance, 102);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class SyringeItem extends AnnimathModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AftermathItemGroup.tab).maxStackSize(64));
-			setRegistryName("syringe");
+			setRegistryName("needle");
 		}
 
 		@Override
@@ -61,7 +61,7 @@ public class SyringeItem extends AnnimathModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				SyringeRightClickedInAirProcedure.executeProcedure($_dependencies);
+				NeedleRightClickedInAirProcedure.executeProcedure($_dependencies);
 			}
 			return ar;
 		}
