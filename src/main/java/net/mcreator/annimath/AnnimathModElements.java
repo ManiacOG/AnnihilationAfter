@@ -49,6 +49,7 @@ public class AnnimathModElements {
 	public AnnimathModElements() {
 		sounds.put(new ResourceLocation("annimath", "pulserifleshot"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("annimath", "pulserifleshot")));
+		sounds.put(new ResourceLocation("annimath", "pianodixie"), new net.minecraft.util.SoundEvent(new ResourceLocation("annimath", "pianodixie")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("annimath").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
