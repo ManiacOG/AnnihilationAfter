@@ -1,12 +1,20 @@
 
 package net.mcreator.annimath.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.annimath.AnnimathModElements;
+
 @AnnimathModElements.ModElement.Tag
 public class ObsidianPickaxeItem extends AnnimathModElements.ModElement {
-
 	@ObjectHolder("annimath:obsidian_pickaxe")
 	public static final Item block = null;
-
 	public ObsidianPickaxeItem(AnnimathModElements instance) {
 		super(instance, 82);
 	}
@@ -38,8 +46,6 @@ public class ObsidianPickaxeItem extends AnnimathModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-
 		}.setRegistryName("obsidian_pickaxe"));
 	}
-
 }

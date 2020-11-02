@@ -24,7 +24,7 @@
     "Mz": 1.0,
     "name": "Amethyst Ore",
     "specialInfo": [],
-    "hardness": 15.0,
+    "hardness": 5.0,
     "resistance": 18.11949159194239,
     "hasGravity": false,
     "creativeTab": {
@@ -97,9 +97,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 2,
-    "frequencyOnChunk": 1,
+    "frequencyPerChunks": 3,
+    "frequencyOnChunk": 4,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 14
+    "maxGenerateHeight": 75
   }
 }
