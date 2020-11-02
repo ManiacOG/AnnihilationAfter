@@ -7,23 +7,23 @@
   ],
   "key": {
     "0": {
-      "item": "annimath:amethyst_gem"
+      "item": "annimath:unknown_element"
     },
     "1": {
-      "item": "annimath:amethyst_gem"
+      "item": "annimath:unknown_element"
     },
     "2": {
-      "item": "annimath:amethyst_gem"
+      "item": "annimath:unknown_element"
     },
     "3": {
-      "item": "annimath:amethyst_gem"
+      "item": "annimath:unknown_element"
     },
     "5": {
-      "item": "annimath:amethyst_gem"
+      "item": "annimath:unknown_element"
     }
   },
   "result": {
-    "item": "annimath:amethyst_armor_helmet",
+    "item": "annimath:unknown_element_helmet",
     "count": 1
   }
 }

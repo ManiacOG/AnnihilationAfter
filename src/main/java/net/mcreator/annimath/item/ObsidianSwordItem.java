@@ -1,20 +1,12 @@
 
 package net.mcreator.annimath.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.mcreator.annimath.AnnimathModElements;
-
 @AnnimathModElements.ModElement.Tag
 public class ObsidianSwordItem extends AnnimathModElements.ModElement {
+
 	@ObjectHolder("annimath:obsidian_sword")
 	public static final Item block = null;
+
 	public ObsidianSwordItem(AnnimathModElements instance) {
 		super(instance, 84);
 	}
@@ -46,6 +38,8 @@ public class ObsidianSwordItem extends AnnimathModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+
 		}.setRegistryName("obsidian_sword"));
 	}
+
 }

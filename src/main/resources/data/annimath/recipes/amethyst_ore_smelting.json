@@ -4,9 +4,9 @@
   "experience": 3.5,
   "cookingtime": 200,
   "ingredient": {
-    "item": "annimath:amethyst_ore"
+    "item": "annimath:unknown_element"
   },
   "result": {
-    "item": "annimath:amethyst_gem"
+    "item": "annimath:unknown_element"
   }
 }

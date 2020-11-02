@@ -2,13 +2,13 @@
 package net.mcreator.annimath.item;
 
 @AnnimathModElements.ModElement.Tag
-public class AmethystGemItem extends AnnimathModElements.ModElement {
+public class ArtificialBrainItem extends AnnimathModElements.ModElement {
 
-	@ObjectHolder("annimath:amethyst_gem")
+	@ObjectHolder("annimath:artificial_brain")
 	public static final Item block = null;
 
-	public AmethystGemItem(AnnimathModElements instance) {
-		super(instance, 61);
+	public ArtificialBrainItem(AnnimathModElements instance) {
+		super(instance, 60);
 	}
 
 	@Override
@@ -19,8 +19,8 @@ public class AmethystGemItem extends AnnimathModElements.ModElement {
 	public static class ItemCustom extends Item {
 
 		public ItemCustom() {
-			super(new Item.Properties().group(AftermathItemGroup.tab).maxStackSize(64));
-			setRegistryName("amethyst_gem");
+			super(new Item.Properties().group(AftermathItemGroup.tab).maxStackSize(1));
+			setRegistryName("artificial_brain");
 		}
 
 		@Override
