@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "annimath:blocks/infisertexture",
+    "up": "annimath:blocks/infisertexture",
+    "north": "annimath:blocks/infisertexture",
+    "east": "annimath:blocks/infisertexture",
+    "south": "annimath:blocks/infisertexture",
+    "west": "annimath:blocks/infisertexture",
+    "particle": "annimath:blocks/infisertexture"
+  }
+}

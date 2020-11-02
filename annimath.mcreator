@@ -744,6 +744,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ruby_armor_boots_recipe"
+    },
+    {
+      "name": "Infuser",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infuser"
     }
   ],
   "variable_elements": [],
@@ -765,6 +774,7 @@
       "block.annimath.corrupted_log": "Corrupted Log",
       "item.annimath.ruby_armor_boots": "Ruby Boots",
       "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
+      "block.annimath.infuser": "Infuser",
       "item.annimath.cron": "Corn",
       "item.annimath.ruby_hoe": "Ruby Hoe",
       "item.minecraft.lingering_potion.effect.corrupted": "Lingering Corrupted",
