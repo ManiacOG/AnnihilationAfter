@@ -18,8 +18,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 355,
-          "y": 116
+          "x": 301,
+          "y": 107
         }
       },
       {
@@ -43,8 +43,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 354,
-          "y": 185
+          "x": 301,
+          "y": 191
         }
       },
       {
@@ -57,7 +57,7 @@
           "width": 120,
           "height": 40,
           "name": "infuse",
-          "x": 397,
+          "x": 371,
           "y": 143
         }
       }

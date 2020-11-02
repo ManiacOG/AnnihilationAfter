@@ -121,7 +121,7 @@ public class InfuserGUIGui extends AnnimathModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 53, 22) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 26, 17) {
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 137, 36) {
 				@Override
@@ -129,7 +129,7 @@ public class InfuserGUIGui extends AnnimathModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 52, 56) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 26, 59) {
 			}));
 			int si;
 			int sj;
@@ -352,7 +352,7 @@ public class InfuserGUIGui extends AnnimathModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 73, this.guiTop + 35, 60, 20, "infuse", e -> {
+			this.addButton(new Button(this.guiLeft + 60, this.guiTop + 35, 60, 20, "infuse", e -> {
 				AnnimathMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));

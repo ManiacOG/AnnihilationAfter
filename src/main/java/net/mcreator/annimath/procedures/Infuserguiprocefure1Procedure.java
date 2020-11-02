@@ -7,10 +7,10 @@ import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.block.Blocks;
 
 import net.mcreator.annimath.item.RubyGemItem;
 import net.mcreator.annimath.item.ArtificalHeartItem;
+import net.mcreator.annimath.block.RadioactiveObsidianBlock;
 import net.mcreator.annimath.AnnimathModElements;
 
 import java.util.concurrent.atomic.AtomicReference;
@@ -55,7 +55,7 @@ public class Infuserguiprocefure1Procedure extends AnnimathModElements.ModElemen
 				}
 				return _retval.get();
 			}
-		}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (0))) < 64) && (((new Object() {
+		}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (0))) < 64) && ((((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -66,8 +66,8 @@ public class Infuserguiprocefure1Procedure extends AnnimathModElements.ModElemen
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(Blocks.OBSIDIAN, (int) (1)).getItem())
-				&& ((new Object() {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(RadioactiveObsidianBlock.block, (int) (1))
+				.getItem()) || ((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 						TileEntity _ent = world.getTileEntity(pos);
@@ -78,8 +78,33 @@ public class Infuserguiprocefure1Procedure extends AnnimathModElements.ModElemen
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(RubyGemItem.block, (int) (1))
-						.getItem())))) {
+				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(RubyGemItem.block, (int) (1))
+						.getItem()))
+				&& (((new Object() {
+					public ItemStack getItemStack(BlockPos pos, int sltid) {
+						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+						TileEntity _ent = world.getTileEntity(pos);
+						if (_ent != null) {
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+								_retval.set(capability.getStackInSlot(sltid).copy());
+							});
+						}
+						return _retval.get();
+					}
+				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2)))
+						.getItem() == new ItemStack(RadioactiveObsidianBlock.block, (int) (1)).getItem()) || ((new Object() {
+							public ItemStack getItemStack(BlockPos pos, int sltid) {
+								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+								TileEntity _ent = world.getTileEntity(pos);
+								if (_ent != null) {
+									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+										_retval.set(capability.getStackInSlot(sltid).copy());
+									});
+								}
+								return _retval.get();
+							}
+						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(RubyGemItem.block, (int) (1))
+								.getItem()))))) {
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {

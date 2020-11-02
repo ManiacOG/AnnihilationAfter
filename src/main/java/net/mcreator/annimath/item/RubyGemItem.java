@@ -4,10 +4,10 @@ package net.mcreator.annimath.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.annimath.itemgroup.AftermathItemGroup;
 import net.mcreator.annimath.AnnimathModElements;
 
 @AnnimathModElements.ModElement.Tag
@@ -24,7 +24,7 @@ public class RubyGemItem extends AnnimathModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64));
+			super(new Item.Properties().group(AftermathItemGroup.tab).maxStackSize(64));
 			setRegistryName("ruby_gem");
 		}
 
