@@ -1283,20 +1283,8 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }
@@ -1511,8 +1499,8 @@
       "effect.corrupted": "Corrupted",
       "item.annimath.pulserifle": "Pulse Rifle",
       "item.annimath.deadheart": "Dead Heart",
-      "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
       "block.annimath.dead_leaves": "Dead Leaves",
+      "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
       "item.annimath.hasmat_armor_boots": "Hasmat Boots",
       "item.annimath.energy_capsule": "Energy Ball",
       "item.minecraft.splash_potion.effect.corrupted": "Splash Corrupted",

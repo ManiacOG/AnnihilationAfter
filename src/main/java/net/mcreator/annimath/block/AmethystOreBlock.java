@@ -49,7 +49,7 @@ public class AmethystOreBlock extends AnnimathModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(15f, 18.11949159194239f).lightValue(0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(5f, 18.11949159194239f).lightValue(0)
 					.harvestLevel(10).harvestTool(ToolType.PICKAXE));
 			setRegistryName("amethyst_ore");
 		}
@@ -81,7 +81,7 @@ public class AmethystOreBlock extends AnnimathModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 3)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(2, 1, 1, 32))));
+			}), block.getDefaultState(), 4)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(3, 1, 1, 75))));
 		}
 	}
 }

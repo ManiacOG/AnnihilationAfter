@@ -16,14 +16,5 @@
         "stream": false
       }
     ]
-  },
-  "ding": {
-    "category": "master",
-    "sounds": [
-      {
-        "name": "annimath:xp_orb_sound_minecraft_-_sound_effect_for_editing",
-        "stream": false
-      }
-    ]
   }
 }

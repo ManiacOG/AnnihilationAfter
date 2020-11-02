@@ -9,7 +9,6 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.annimath.procedures.SyringeRightClickedInAirProcedure;
@@ -65,21 +64,6 @@ public class SyringeItem extends AnnimathModElements.ModElement {
 				SyringeRightClickedInAirProcedure.executeProcedure($_dependencies);
 			}
 			return ar;
-		}
-
-		@Override
-		public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
-			boolean retval = super.hitEntity(itemstack, entity, sourceentity);
-			double x = entity.getPosX();
-			double y = entity.getPosY();
-			double z = entity.getPosZ();
-			World world = entity.world;
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				SyringeRightClickedInAirProcedure.executeProcedure($_dependencies);
-			}
-			return retval;
 		}
 	}
 }
