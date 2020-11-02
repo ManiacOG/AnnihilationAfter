@@ -56,7 +56,7 @@ public class MineBlock extends AnnimathModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.TNT).sound(SoundType.PLANT).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).notSolid());
+					.harvestTool(ToolType.PICKAXE).doesNotBlockMovement().notSolid());
 			setRegistryName("mine");
 		}
 

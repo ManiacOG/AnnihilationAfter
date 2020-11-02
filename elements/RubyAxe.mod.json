@@ -1,0 +1,26 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ruby_axe",
+    "customModelName": "Normal",
+    "name": "Ruby Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Aftermath"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 4,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 6.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

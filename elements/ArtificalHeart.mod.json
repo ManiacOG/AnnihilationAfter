@@ -1,0 +1,28 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 1,
+    "texture": "artificalheart",
+    "customModelName": "artificalheart:default",
+    "name": "Artificial Heart",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Aftermath"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatingSpeed": 200,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true,
+    "onRightClicked": {
+      "name": "ArtificalHeartRightClickedInAir"
+    },
+    "onEaten": {
+      "name": "ArtificalHeartFoodEaten"
+    }
+  }
+}

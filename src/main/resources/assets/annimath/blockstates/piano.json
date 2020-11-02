@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "annimath:block/piano"
+    },
+    "facing=east": {
+      "model": "annimath:block/piano",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "annimath:block/piano",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "annimath:block/piano",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "annimath:block/piano",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "annimath:block/piano",
+      "x": 90
+    }
+  }
+}

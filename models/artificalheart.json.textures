@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m00n": "m00n",
+        "hehe": "hehe"
+      },
+      "name": "default"
+    }
+  }
+}

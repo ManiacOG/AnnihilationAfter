@@ -2,9 +2,8 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "redstone_block",
-        "1": "stone",
-        "missing": "stone"
+        "heheheherhehee": "heheheherhehee",
+        "hehlehlelhehlehlehl": "hehlehlelhehlehlehl"
       },
       "name": "default"
     }

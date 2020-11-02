@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "68fdeb08b6cecbb": "68fdeb08b6cecbb",
+        "Goldthing": "goldthing",
+        "blackthing": "blackthing"
+      },
+      "name": "default"
+    }
+  }
+}

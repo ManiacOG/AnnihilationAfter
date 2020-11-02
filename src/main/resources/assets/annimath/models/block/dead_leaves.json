@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "annimath:blocks/deadleaves",
+    "up": "annimath:blocks/deadleaves",
+    "north": "annimath:blocks/deadleaves",
+    "east": "annimath:blocks/deadleaves",
+    "south": "annimath:blocks/deadleaves",
+    "west": "annimath:blocks/deadleaves",
+    "particle": "annimath:blocks/deadleaves"
+  }
+}

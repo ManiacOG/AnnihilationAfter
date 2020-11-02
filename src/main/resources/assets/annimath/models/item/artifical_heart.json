@@ -1,0 +1,8 @@
+{
+  "parent": "annimath:custom/artificalheart",
+  "textures": {
+    "m00n": "annimath:blocks/m00n",
+    "hehe": "annimath:blocks/hehe",
+    "particle": "annimath:items/artificalheart"
+  }
+}
