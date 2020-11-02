@@ -16,31 +16,31 @@
         "value": "Blocks.OBSIDIAN"
       },
       {
-        "value": "Blocks.OBSIDIAN"
-      },
-      {
-        "value": "Blocks.OBSIDIAN"
-      },
-      {
         "value": ""
       },
       {
         "value": "Blocks.OBSIDIAN"
       },
       {
+        "value": "Items.STICK"
+      },
+      {
         "value": ""
       },
       {
         "value": ""
+      },
+      {
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Obsidianarmor.helmet"
+      "value": "CUSTOM:ObsidianAxe"
     },
-    "name": "obsidian_helmet_recipe",
+    "name": "obsidian_axe_recipe",
     "namespace": "mod"
   }
 }

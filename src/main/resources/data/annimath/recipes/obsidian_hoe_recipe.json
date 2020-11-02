@@ -2,8 +2,9 @@
   "group": "annimath",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "3 5"
+    "01",
+    " 3",
+    " 5"
   ],
   "key": {
     "0": {
@@ -12,18 +13,15 @@
     "1": {
       "item": "minecraft:obsidian"
     },
-    "2": {
-      "item": "minecraft:obsidian"
-    },
     "3": {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:stick"
     },
     "5": {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "annimath:obsidianarmor_helmet",
+    "item": "annimath:obsidian_hoe",
     "count": 1
   }
 }

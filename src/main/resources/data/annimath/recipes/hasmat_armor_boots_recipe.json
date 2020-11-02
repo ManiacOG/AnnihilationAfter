@@ -1,0 +1,26 @@
+{
+  "group": "annimath",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "annimath:radioactive_obsidian"
+    },
+    "2": {
+      "item": "annimath:radioactive_obsidian"
+    },
+    "3": {
+      "item": "annimath:radioactive_obsidian"
+    },
+    "5": {
+      "item": "annimath:radioactive_obsidian"
+    }
+  },
+  "result": {
+    "item": "annimath:hasmat_armor_boots",
+    "count": 1
+  }
+}

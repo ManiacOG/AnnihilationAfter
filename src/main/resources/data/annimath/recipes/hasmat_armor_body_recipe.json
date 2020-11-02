@@ -1,0 +1,39 @@
+{
+  "group": "annimath",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "annimath:radioactive_obsidian"
+    },
+    "2": {
+      "item": "annimath:radioactive_obsidian"
+    },
+    "3": {
+      "item": "annimath:radioactive_obsidian"
+    },
+    "4": {
+      "item": "annimath:radioactive_obsidian"
+    },
+    "5": {
+      "item": "annimath:radioactive_obsidian"
+    },
+    "6": {
+      "item": "annimath:radioactive_obsidian"
+    },
+    "7": {
+      "item": "annimath:radioactive_obsidian"
+    },
+    "8": {
+      "item": "annimath:radioactive_obsidian"
+    }
+  },
+  "result": {
+    "item": "annimath:hasmat_armor_chestplate",
+    "count": 1
+  }
+}
