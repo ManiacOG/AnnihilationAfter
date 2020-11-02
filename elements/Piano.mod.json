@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "pianodos:default",
-    "rotationMode": 4,
+    "rotationMode": 2,
     "emissiveRendering": false,
     "itemTexture": "",
     "hasTransparency": true,

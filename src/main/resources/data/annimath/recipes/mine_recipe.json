@@ -2,19 +2,22 @@
   "group": "annimath",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "0 ",
+    "2 ",
+    "45"
   ],
   "key": {
     "0": {
       "item": "minecraft:redstone"
     },
-    "1": {
+    "2": {
       "item": "minecraft:tnt"
     },
-    "2": {
+    "4": {
       "item": "minecraft:stone"
+    },
+    "5": {
+      "item": "minecraft:green_dye"
     }
   },
   "result": {

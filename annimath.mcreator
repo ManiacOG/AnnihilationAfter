@@ -744,6 +744,48 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ruby_armor_boots_recipe"
+    },
+    {
+      "name": "TheAnnihilatorsScythe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_annihilators_scythe"
+    },
+    {
+      "name": "TheAnnihilatorsScytheRightClickedInAir",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_annihilators_scythe_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -774,6 +816,7 @@
       "block.annimath.piano": "Piano",
       "block.annimath.mine": "Mine",
       "item.annimath.ruby_armor_leggings": "Ruby Leggings",
+      "item.annimath.the_annihilators_scythe": "The Annihilator\u0027s Scythe",
       "effect.corrupted": "Corrupted",
       "item.annimath.pulserifle": "Pulse Rifle",
       "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
