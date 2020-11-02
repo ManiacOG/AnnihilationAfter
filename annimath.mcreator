@@ -944,6 +944,62 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "supercharged_heart"
+    },
+    {
+      "name": "ArtificialBrain",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artificial_brain"
+    },
+    {
+      "name": "Syringe",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "syringe"
+    },
+    {
+      "name": "Syringeofblood",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "syringeofblood"
+    },
+    {
+      "name": "SyringeRightClickedInAir",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "syringe_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -966,6 +1022,7 @@
       "item.annimath.ruby_armor_boots": "Ruby Boots",
       "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
       "block.annimath.infuser": "Infuser",
+      "item.annimath.artificial_brain": "Artificial Brain",
       "item.annimath.cron": "Corn",
       "item.annimath.ruby_hoe": "Ruby Hoe",
       "item.minecraft.lingering_potion.effect.corrupted": "Lingering Corrupted",
@@ -997,7 +1054,9 @@
       "item.annimath.obsidianarmor_leggings": "Obsidian Leggings",
       "item.annimath.ruby_armor_helmet": "Ruby Helmet",
       "item.annimath.obsidianarmor_boots": "Obsidian Boots",
+      "item.annimath.syringeofblood": "Syringe ",
       "entity.annimath.the_scientist": "The Scientist",
+      "item.annimath.syringe": "Syringe",
       "item.annimath.ruby_axe": "Ruby Axe",
       "item.annimath.ruby_gem": "Ruby",
       "item.annimath.ruby_pickaxe": "Ruby Pickaxe",
