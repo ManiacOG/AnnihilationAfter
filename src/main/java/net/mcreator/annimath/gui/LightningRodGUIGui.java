@@ -35,6 +35,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.annimath.procedures.LightningRodStrickMainProcedure;
 import net.mcreator.annimath.AnnimathModElements;
 import net.mcreator.annimath.AnnimathMod;
 
@@ -43,11 +44,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @AnnimathModElements.ModElement.Tag
-public class InfuserGUIGui extends AnnimathModElements.ModElement {
+public class LightningRodGUIGui extends AnnimathModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public InfuserGUIGui(AnnimathModElements instance) {
-		super(instance, 53);
+	public LightningRodGUIGui(AnnimathModElements instance) {
+		super(instance, 55);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -63,7 +64,7 @@ public class InfuserGUIGui extends AnnimathModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-		event.getRegistry().register(containerType.setRegistryName("infuser_gui"));
+		event.getRegistry().register(containerType.setRegistryName("lightning_rod_gui"));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -82,7 +83,7 @@ public class InfuserGUIGui extends AnnimathModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(3);
+			this.internal = new ItemStackHandler(2);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -120,11 +121,9 @@ public class InfuserGUIGui extends AnnimathModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 14, 16) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 34) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 15, 55) {
-			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 123, 34) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 132, 34) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -155,18 +154,18 @@ public class InfuserGUIGui extends AnnimathModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 3) {
-					if (!this.mergeItemStack(itemstack1, 3, this.inventorySlots.size(), true)) {
+				if (index < 2) {
+					if (!this.mergeItemStack(itemstack1, 2, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 3, false)) {
-					if (index < 3 + 27) {
-						if (!this.mergeItemStack(itemstack1, 3 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 2, false)) {
+					if (index < 2 + 27) {
+						if (!this.mergeItemStack(itemstack1, 2 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 3, 3 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 2, 2 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -306,7 +305,7 @@ public class InfuserGUIGui extends AnnimathModElements.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("annimath:textures/infuser_gui.png");
+		private static final ResourceLocation texture = new ResourceLocation("annimath:textures/lightning_rod_gui.png");
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
 			this.renderBackground();
@@ -351,7 +350,7 @@ public class InfuserGUIGui extends AnnimathModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 47, this.guiTop + 32, 60, 20, "infuse", e -> {
+			this.addButton(new Button(this.guiLeft + 60, this.guiTop + 33, 60, 20, "Strike", e -> {
 				AnnimathMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));
@@ -444,6 +443,16 @@ public class InfuserGUIGui extends AnnimathModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				LightningRodStrickMainProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {

@@ -18,43 +18,32 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 278,
-          "y": 105
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 1,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #1",
-          "x": 279,
-          "y": 182
+          "x": 300,
+          "y": 141
         }
       },
       {
         "type": "button",
         "data": {
-          "text": "infuse",
+          "text": "Strike",
+          "onClick": {
+            "name": "LightningRodStrickMain"
+          },
           "width": 120,
           "height": 40,
-          "name": "infuse",
-          "x": 344,
-          "y": 138
+          "name": "Strike",
+          "x": 371,
+          "y": 139
         }
       },
       {
         "type": "outputslot",
         "data": {
-          "id": 2,
+          "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
-          "name": "Slot #2",
-          "x": 496,
+          "name": "Slot #1",
+          "x": 514,
           "y": 140
         }
       }
