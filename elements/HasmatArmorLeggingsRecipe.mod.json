@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "CUSTOM:RadioactiveObsidian"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "CUSTOM:RadioactiveObsidian"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "CUSTOM:RadioactiveObsidian"
       },
       {
-        "value": "Blocks.OBSIDIAN"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.OBSIDIAN"
+        "value": "CUSTOM:RadioactiveObsidian"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:RadioactiveObsidian"
+      },
+      {
+        "value": "CUSTOM:RadioactiveObsidian"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:RadioactiveObsidian"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Obsidianarmor.helmet"
+      "value": "CUSTOM:HasmatArmor.legs"
     },
-    "name": "obsidian_helmet_recipe",
+    "name": "hasmat_armor_leggings_recipe",
     "namespace": "mod"
   }
 }

@@ -2,16 +2,13 @@
   "group": "annimath",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
+    "0 2",
     "345",
     "678"
   ],
   "key": {
     "0": {
       "item": "minecraft:obsidian"
-    },
-    "1": {
-      "item": "annimath:corrupted_crystal"
     },
     "2": {
       "item": "minecraft:obsidian"

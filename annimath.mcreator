@@ -1121,6 +1121,147 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "amethyst_armor_boots_recipe"
+    },
+    {
+      "name": "ObsidianPickaxe",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_pickaxe"
+    },
+    {
+      "name": "ObsidianAxe",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_axe"
+    },
+    {
+      "name": "ObsidianSword",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_sword"
+    },
+    {
+      "name": "ObsidianShovel",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_shovel"
+    },
+    {
+      "name": "ObsidianHoe",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_hoe"
+    },
+    {
+      "name": "ObsidianPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_pickaxe_recipe"
+    },
+    {
+      "name": "ObsidianAxeRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_axe_recipe"
+    },
+    {
+      "name": "ObsidianSwordRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_sword_recipe"
+    },
+    {
+      "name": "ObsidianShovelRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_shovel_recipe"
+    },
+    {
+      "name": "ObsidianHoeRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_hoe_recipe"
+    },
+    {
+      "name": "HasmatArmor",
+      "type": "armor",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hasmat_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "HasmatArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hasmat_armor_helmet_recipe"
+    },
+    {
+      "name": "HasmatArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hasmat_armor_body_recipe"
+    },
+    {
+      "name": "HasmatArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hasmat_armor_leggings_recipe"
+    },
+    {
+      "name": "HasmatArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hasmat_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -1139,19 +1280,22 @@
   "language_map": {
     "en_us": {
       "item.minecraft.potion.effect.corrupted": "Corrupted",
+      "item.annimath.hasmat_armor_helmet": "Hasmat Helmet",
       "block.annimath.infuser": "Infuser",
       "item.annimath.cron": "Corn",
       "item.annimath.amethyst_shovel": "Amethyst Shovel",
       "item.annimath.ruby_shovel": "Ruby Shovel",
+      "item.annimath.obsidian_pickaxe": "Obsidian Pickaxe",
       "item.annimath.corrupted_crystal": "Corrupted Crystal",
       "block.annimath.mine": "Mine",
-      "item.annimath.ruby_armor_leggings": "Ruby Leggings",
       "item.annimath.the_annihilators_scythe": "The Annihilator\u0027s Scythe",
+      "item.annimath.ruby_armor_leggings": "Ruby Leggings",
       "effect.corrupted": "Corrupted",
       "item.annimath.pulserifle": "Pulse Rifle",
       "item.annimath.deadheart": "Dead Heart",
-      "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
       "block.annimath.dead_leaves": "Dead Leaves",
+      "item.annimath.obsidianarmor_chestplate": "Obsidian Chestplate",
+      "item.annimath.hasmat_armor_boots": "Hasmat Boots",
       "item.annimath.energy_capsule": "Energy Ball",
       "item.minecraft.splash_potion.effect.corrupted": "Splash Corrupted",
       "item.annimath.ruby_sword": "Ruby Sword",
@@ -1171,8 +1315,13 @@
       "item.annimath.obsidianarmor_helmet": "Obsidian Helmet",
       "item.annimath.ruby_hoe": "Ruby Hoe",
       "item.minecraft.lingering_potion.effect.corrupted": "Lingering Corrupted",
+      "item.annimath.obsidian_sword": "Obsidian Sword",
       "block.annimath.deadgrass": "Dead Grass",
+      "item.annimath.obsidian_axe": "Obsidian Axe",
+      "item.annimath.hasmat_armor_chestplate": "Hasmat Chestplate",
       "block.annimath.piano": "Piano",
+      "item.annimath.hasmat_armor_leggings": "Hasmat Leggings",
+      "item.annimath.obsidian_shovel": "Obsidian Shovel",
       "item.annimath.amethyst_sword": "Amethyst Sword",
       "item.annimath.amethyst_armor_leggings": "Amethyst Leggings",
       "item.annimath.pewpew": "Pewpew",
@@ -1188,6 +1337,7 @@
       "item.annimath.amethyst_armor_helmet": "Amethyst Helmet",
       "entity.annimath.the_scientist": "The Scientist",
       "item.annimath.ruby_axe": "Ruby Axe",
+      "item.annimath.obsidian_hoe": "Obsidian Hoe",
       "item.annimath.ruby_pickaxe": "Ruby Pickaxe",
       "item.annimath.amethyst_axe": "Amethyst Axe"
     }

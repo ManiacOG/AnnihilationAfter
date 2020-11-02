@@ -19,28 +19,28 @@
         "value": "Blocks.OBSIDIAN"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.OBSIDIAN"
-      },
-      {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Obsidianarmor.helmet"
+      "value": "CUSTOM:ObsidianPickaxe"
     },
-    "name": "obsidian_helmet_recipe",
+    "name": "obsidian_pickaxe_recipe",
     "namespace": "mod"
   }
 }
