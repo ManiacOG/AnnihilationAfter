@@ -1,12 +1,20 @@
 
 package net.mcreator.annimath.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.HoeItem;
+
+import net.mcreator.annimath.itemgroup.AftermathItemGroup;
+import net.mcreator.annimath.AnnimathModElements;
+
 @AnnimathModElements.ModElement.Tag
 public class AmethystHoeItem extends AnnimathModElements.ModElement {
-
 	@ObjectHolder("annimath:amethyst_hoe")
 	public static final Item block = null;
-
 	public AmethystHoeItem(AnnimathModElements instance) {
 		super(instance, 71);
 	}
@@ -38,8 +46,6 @@ public class AmethystHoeItem extends AnnimathModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, -3f, new Item.Properties().group(AftermathItemGroup.tab)) {
-
 		}.setRegistryName("amethyst_hoe"));
 	}
-
 }

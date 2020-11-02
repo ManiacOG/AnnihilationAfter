@@ -8,29 +8,29 @@
   ],
   "key": {
     "0": {
-      "item": "annimath:unknown_element"
+      "item": "annimath:amethyst_gem"
     },
     "1": {
-      "item": "annimath:unknown_element"
+      "item": "annimath:amethyst_gem"
     },
     "2": {
-      "item": "annimath:unknown_element"
+      "item": "annimath:amethyst_gem"
     },
     "3": {
-      "item": "annimath:unknown_element"
+      "item": "annimath:amethyst_gem"
     },
     "5": {
-      "item": "annimath:unknown_element"
+      "item": "annimath:amethyst_gem"
     },
     "6": {
-      "item": "annimath:unknown_element"
+      "item": "annimath:amethyst_gem"
     },
     "8": {
-      "item": "annimath:unknown_element"
+      "item": "annimath:amethyst_gem"
     }
   },
   "result": {
-    "item": "annimath:unknown_element_leggings",
+    "item": "annimath:amethyst_armor_leggings",
     "count": 1
   }
 }
