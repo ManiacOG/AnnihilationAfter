@@ -1,0 +1,39 @@
+{
+  "group": "annimath",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "annimath:amethyst_gem"
+    },
+    "2": {
+      "item": "annimath:amethyst_gem"
+    },
+    "3": {
+      "item": "annimath:amethyst_gem"
+    },
+    "4": {
+      "item": "annimath:amethyst_gem"
+    },
+    "5": {
+      "item": "annimath:amethyst_gem"
+    },
+    "6": {
+      "item": "annimath:amethyst_gem"
+    },
+    "7": {
+      "item": "annimath:amethyst_gem"
+    },
+    "8": {
+      "item": "annimath:amethyst_gem"
+    }
+  },
+  "result": {
+    "item": "annimath:unknown_element_chestplate",
+    "count": 1
+  }
+}

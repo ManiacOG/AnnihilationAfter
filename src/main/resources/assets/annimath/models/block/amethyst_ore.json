@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "annimath:blocks/amethyst_ore",
+    "particle": "annimath:blocks/amethyst_ore"
+  }
+}

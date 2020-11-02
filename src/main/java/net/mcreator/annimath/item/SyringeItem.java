@@ -1,27 +1,12 @@
 
 package net.mcreator.annimath.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.World;
-import net.minecraft.util.Hand;
-import net.minecraft.util.ActionResult;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.block.BlockState;
-
-import net.mcreator.annimath.procedures.SyringeRightClickedInAirProcedure;
-import net.mcreator.annimath.itemgroup.AftermathItemGroup;
-import net.mcreator.annimath.AnnimathModElements;
-
-import java.util.Map;
-import java.util.HashMap;
-
 @AnnimathModElements.ModElement.Tag
 public class SyringeItem extends AnnimathModElements.ModElement {
+
 	@ObjectHolder("annimath:syringe")
 	public static final Item block = null;
+
 	public SyringeItem(AnnimathModElements instance) {
 		super(instance, 61);
 	}
@@ -30,7 +15,9 @@ public class SyringeItem extends AnnimathModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			super(new Item.Properties().group(AftermathItemGroup.tab).maxStackSize(64));
 			setRegistryName("syringe");
@@ -58,15 +45,20 @@ public class SyringeItem extends AnnimathModElements.ModElement {
 			double x = entity.getPosX();
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
+
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
+
 				SyringeRightClickedInAirProcedure.executeProcedure($_dependencies);
 			}
 			return ar;
 		}
+
 	}
+
 }

@@ -1,22 +1,11 @@
 package net.mcreator.annimath.procedures;
 
-import net.minecraftforge.items.IItemHandlerModifiable;
-import net.minecraftforge.items.CapabilityItemHandler;
-
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.item.ItemStack;
-
-import net.mcreator.annimath.item.SyringeofbloodItem;
-import net.mcreator.annimath.AnnimathModElements;
-
-import java.util.Map;
-
 @AnnimathModElements.ModElement.Tag
 public class SyringeRightClickedInAirProcedure extends AnnimathModElements.ModElement {
+
 	public SyringeRightClickedInAirProcedure(AnnimathModElements instance) {
 		super(instance, 62);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -36,10 +25,12 @@ public class SyringeRightClickedInAirProcedure extends AnnimathModElements.ModEl
 			System.err.println("Failed to load dependency world for procedure SyringeRightClickedInAir!");
 			return;
 		}
+
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		{
 			TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 			if (_ent != null) {
@@ -67,5 +58,7 @@ public class SyringeRightClickedInAirProcedure extends AnnimathModElements.ModEl
 				});
 			}
 		}
+
 	}
+
 }

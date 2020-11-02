@@ -1,0 +1,24 @@
+{
+  "group": "annimath",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "annimath:amethyst_gem"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "annimath:unknown_element",
+    "count": 1
+  }
+}
