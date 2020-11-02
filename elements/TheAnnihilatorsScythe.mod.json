@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "theslutbitch",
+    "texture": "ruby_hoe",
     "customModelName": "Normal",
     "name": "The Annihilator's Scythe",
     "specialInfo": [],
@@ -18,7 +18,7 @@
     "damageVsEntity": 24.5,
     "usageCount": 300,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
